@@ -354,8 +354,8 @@ class TAFNet(nn.Module):
 
     def forward(self, x):
         # for i in range(5):
-        with torch.no_grad():
-            dn = self.nafnet(x)
+        # with torch.no_grad():
+        dn = self.nafnet(x)
         dl = self.dnafnet(dn)
         out = dl
         return out
