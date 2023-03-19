@@ -36,7 +36,7 @@ python -m torch.distributed.launch --nproc_per_node=1 --master_port=4321 basicsr
 Example:
 
 ```shell
-python -m torch.distributed.launch --nproc_per_node=1 --master_port=4321 basicsr/test.py -opt /mnt/lustre/GPU7/home/yangbo/workspace/codes/NAFNet-raw/options/test/All/NAFNet-2Phase-5E4-test.yml  --launcher pytorch
+python -m torch.distributed.launch --nproc_per_node=1 --master_port=4321 basicsr/test.py -opt /mnt/lustre/GPU7/home/yangbo/workspace/codes/NAFNet-raw/options/test/All/NAFNet-2Phase-384midRes-test.yml  --launcher pytorch
 ```
 
 #### How to train :
@@ -48,6 +48,6 @@ python -m torch.distributed.launch --nproc_per_node=8 --master_port=4321 basicsr
 Example:
 
 ```
-python -m torch.distributed.launch --nproc_per_node=8 --master_port=4321 basicsr/train.py -opt /mnt/lustre/GPU7/home/yangbo/workspace/codes/NAFNet-raw/options/train/All/HHNAFNet-ALL-width64.yml --launcher pytorch
+python -m torch.distributed.launch --nproc_per_node=8 --master_port=4321 basicsr/train.py -opt /mnt/lustre/GPU7/home/yangbo/workspace/codes/NAFNet-raw/options/train/All/NAFNet-ALL-2Phase-384.yml --launcher pytorch
 ```
 
