@@ -25,7 +25,7 @@ or use shell :
 wget https://github.com/RicoJYang/NAFNet-Dual/releases/download/pretrained_model/team14_RTAFNet.pth 
 ```
 
-This pretrained model use option file which located in './options/test/All/NAFNet-2Phase-384midRes-test.yml'
+This pretrained model use option file which located in './options/test/All/NAFNet-2Phase-384midRes-test.yml' and the network name is 'RTAFNetLocal' in py file './NAFNet-Dual/basicsr/models/archs/TAFNet_arch.py'
 
 You can change the pretrain model path[team14_RTAFNet.pth ] in this option file to test  pretrain model and run the script under:
 

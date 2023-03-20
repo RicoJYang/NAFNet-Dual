@@ -34,7 +34,7 @@ network_g:
 
 # path
 path:
-  pretrain_network_g: /mnt/lustre/GPU7/home/yangbo/workspace/codes/NAFNet-raw/experiments/NAFNet-ALL-2Phase-384-midRes/models/net_g_330000.pth
+  pretrain_network_g: ./team14_RTAFNet.pth
   strict_load_g: true
   resume_state: ~
 

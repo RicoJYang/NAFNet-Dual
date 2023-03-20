@@ -51,7 +51,7 @@ network_g:
 
 # path
 path:
-  pretrain_network_g: /mnt/lustre/GPU7/home/yangbo/workspace/user_data/NAFNet/pretrained_model/twoStep.pth
+  pretrain_network_g: ./team14_RTAFNet.pth
   strict_load_g: true
   resume_state: ~
 
